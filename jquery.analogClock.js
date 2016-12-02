@@ -41,7 +41,7 @@
 			hourColor: "#00f",
 			hourWidth: 6,
 			showDigital: true,
-			digitalColor: "#333",
+			digitalColor: "#333"
 		};
 		return this.each(function () {
 			var $this = $(this);
@@ -182,7 +182,7 @@
 	function startTimer($this) {
 		var options = $this.data().options;
 
-		if (options.smoothSecond) {
+		if (options.showSecond && options.smoothSecond) {
 			$this.data({
 				interval: setInterval(function () {
 					updateClock($this);
