@@ -3,7 +3,7 @@ An analog clock widget
 
 ![analogClockSmooth.gif](analogClockSmooth.gif)
 
-##options
+## options
 
 ```javascript
 $(".clock").analogClock({
@@ -26,4 +26,14 @@ $(".clock").analogClock({
 	showDigital: true,
 	digitalColor: "#333"
 });
+```
+
+## methods
+
+```javascript
+$(".clock").analogClock("enable");
+```
+
+```javascript
+$(".clock").analogClock("disable");
 ```
